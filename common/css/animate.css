@@ -22,7 +22,6 @@
 .wave_wrap .wave:nth-of-type(3) {animation: wave_03 13s ease-in-out infinite alternate;z-index:2;}
 .wave_wrap .wave:nth-of-type(4) {animation: wave_04 11s ease-in-out infinite alternate;z-index:1;}
 .visual .grass_wrap{opacity:0;animation:grass .7s ease-in forwards;animation-delay:2s}
-
 .visual .arrow{animation:scroll 1.7s infinite ease}
 
 @keyframes visual_text{
