@@ -19,8 +19,6 @@ section{width:100%;/*overflow:hidden*/}
 .visual .pic{text-align:center}
 .visual .cloud_left{width:224px;height:89px;position:absolute;top:40%;left:9%;background:url('../img/visual_cloud_left.png') no-repeat;transform:scale(0.6);opacity:0.6}
 .visual .cloud_right{width:313px;height:67px;position:absolute;top:46%;right:10%;background:url('../img/visual_cloud_right.png') no-repeat;transform:scale(0.7);opacity:0.5}
-.visual .baloon{position:absolute;background:url('../img/visual_baloon.png') no-repeat;background-size:50px;width:50px;height:50px;top:13%;left:74%;z-index:200; }
-.visual .baloon:nth-of-type(4), .visual .baloon:nth-of-type(5), .visual .baloon:nth-of-type(6){background:url('../img/visual_baloon_reverse.png') }
 .visual .space{background-size: 200px 150px;width:100%;height:53vh;bottom: 0;left: 0;position: absolute;right: 0;top:-130px;}
 .visual .stars1 {background-image:radial-gradient(1px 1px at 25px 5px,white,rgba(255, 255, 255, 0)),
     radial-gradient(2px 2px at 50px 25px,white,rgba(255, 255, 255, 0)),
@@ -40,10 +38,12 @@ section{width:100%;/*overflow:hidden*/}
   radial-gradient(1.5px 1.5px at 175px 180px, white, rgba(255, 255, 255, 0)),
   radial-gradient(2px 2px at 195px 95px, white, rgba(255, 255, 255, 0)),
   radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0));  }
-.visual .baloon:nth-of-type(4){background-size:70px;width:70px;height:70px;top:54%;left:68%}
-.visual .baloon:nth-of-type(5){background-size: 35px; width: 35px;height: 35px;top: 1%; left: 61%;}
-.visual .baloon:nth-of-type(6){background-size:50px;width:50px;height:50px;top:22%;left:15%}
-.visual .baloon:nth-of-type(7){background-size:30px;width:30px;height:30px;top:7%;left:28%;}
+.visual .baloon_wrap .baloon{position:absolute;background:url('../img/visual_baloon.png') no-repeat;background-size:50px;width:50px;height:50px;top:13%;left:74%;z-index:200; }
+.visual .baloon_wrap .baloon:nth-of-type(2),.visual .baloon_wrap .baloon:nth-of-type(3),.visual .baloon_wrap .baloon:nth-of-type(4){background:url('../img/visual_baloon_reverse.png') }
+.visual .baloon_wrap .baloon:nth-of-type(2){background-size:70px;width:70px;height:70px;top:54%;left:68%}
+.visual .baloon_wrap .baloon:nth-of-type(3){background-size: 35px; width: 35px;height: 35px;top: 1%; left: 61%;}
+.visual .baloon_wrap .baloon:nth-of-type(4){background-size:50px;width:50px;height:50px;top:22%;left:15%}
+.visual .baloon_wrap .baloon:nth-of-type(5){background-size:30px;width:30px;height:30px;top:7%;left:28%;}
 .visual .wave_wrap{width:100%;position: absolute;bottom: 0;height: 170px;background:#5836c3}
 .visual .wave_wrap .wave {background-image: url('../img/wave.png');background-size: 1000px 85px;bottom: 0;height: 145px;left: 0;position: absolute;width: 100%;}
 .visual .wave_wrap .wave-two {background-image: url('../img/wave_pu.png');}
