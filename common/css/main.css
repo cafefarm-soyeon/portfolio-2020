@@ -74,6 +74,26 @@ section{width:100%;/*overflow:hidden*/}
 .career .career_wrap .career02 .stit:after{background:url('../img/career_02.jpg') no-repeat;}
 .career .career_wrap .career01 .stit:after{background:url('../img/career_01.jpg') no-repeat;}
 
+.project{width:100%;background:#5836c3;color:#fff;text-align:center;line-height:30px;overflow:hidden;padding-bottom:80px;}
+.project .tit{padding:20px 0;margin:80px 0 60px 0;position:relative;font-size:48px}
+.project .tit:after{content:'';width:154px;height:4px;background:#fff;position:absolute;bottom:0;left:50%;transform:translate(-50%,-50%)}
+.project .project_wrap{padding:0 10px;}
+.project .project_wrap>div{float:left;padding:3px;background:#3a2381;text-align:left;color:#fff;margin:0 1% 2%;width:31.3333%;
+  box-shadow: 2px 6px 4px #2e167d;box-sizing: border-box;}
+.project .project_wrap>div:after{clear:both;}
+.project .project_wrap>div:hover img{transform:scale(1.08);transition:.7s}
+.project .project_wrap>div>div{padding:10px;}
+.project .project_wrap p{width:100%;height:265px;background:#666;overflow:hidden;position:relative;}
+.project .project_wrap span{display:block}
+.project .project_wrap img{width:100%;height:auto;transition:.7s}
+.project .project_wrap a{color:#0099ff}
+.project .project_wrap .stit{font-size:18px;font-weight:bold;padding:5px 0;}
+.project .project_wrap .stxt{line-height:20px}
+.project .project_wrap .url{font-size:12px;line-height:22px}
+.project .project_wrap .icon_secret:after{content:'';position: absolute;left: 50%;top:50%;background:url('../img/p_secret.png') 50% 50% no-repeat;width: 80px;height:80px;transform:translate(-50%,-50%)}
+
+
+
 .skills{width:100%;background: url(../img/bg_skill_p.jpg) center center no-repeat fixed;color:#fff;text-align:center;position:relative;}
 .skills .tit{padding:100px 0 10px 0;margin-bottom: 80px;position:relative;font-size:48px}
 .skills>.tit:after{content:'';width:111px;height:4px;background:#fff;position:absolute;bottom:0;left:50%;transform:translate(-50%,-50%)}
