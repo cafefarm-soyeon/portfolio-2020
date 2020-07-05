@@ -1,0 +1,68 @@
+.visual h2{animation: visual_text 1s ease-out 1 }
+.baloon{animation: baloon_move 1.5s ease-out infinite alternate;}
+.visual .baloon:nth-of-type(3), .visual .baloon:nth-of-type(7){animation-delay:1s;}
+.visual .baloon:nth-of-type(4), .visual .baloon:nth-of-type(5), .visual .baloon:nth-sof-type(6){animation-delay:2s}
+.cloud_left{animation:cloud_move_left 6s ease-in-out infinite alternate;}
+.cloud_right{animation:cloud_move_right 6s ease-in-out infinite alternate;}
+.star{animation:star_move 2s linear infinite alternate;}
+.wave_wrap .wave.wave-one {animation: wave-one 30s ease-in-out infinite alternate;opacity: 0.5;z-index: 4;}
+.wave_wrap .wave.wave-two {animation: wave-two 15s ease-in-out infinite alternate;bottom: 10px;opacity: 0.6;z-index: 3;}
+.wave_wrap .wave.wave-three {animation: wave-one 30s ease-in-out infinite alternate;bottom: 15px;opacity: 0.4;z-index: 2;}
+.wave_wrap .wave.wave-four {animation: wave-two 5s ease-in-out infinite alternate;bottom: 20px;opacity: 0.25;z-index: 1;}
+.stars1{animation:star 2s -1s ease-in-out infinite alternate;}
+.stars2{animation:star 2s ease-in-out infinite alternate;}
+.stars3{animation:star 3s -2s ease-in-out infinite alternate;}
+.visual .arrow{animation:scroll 1.7s infinite ease}
+
+@media all and (max-width:600px) {
+	.cloud_left{animation:cloud_move_left_m 6s ease-in-out infinite alternate;}
+	.cloud_right{animation:cloud_move_right_m 6s ease-in-out infinite alternate;}
+}
+
+@keyframes visual_text{
+	0%{opacity:0;margin-top:6rem;transform:scale(0.8)}
+	100%{opacity:1;transform:scale(1)}
+}
+@keyframes baloon_move{
+	0%{}
+	100%{transform:scale(0.9);	margin-top:-1.5px;}
+}
+
+@keyframes cloud_move_left{
+	0%{}
+	100%{opacity:0.7;left:16%;top:47%}
+}
+@keyframes cloud_move_right{
+	0%{}
+	100%{opacity:0.7;right:7%;top:51%}
+}
+@keyframes cloud_move_left_m{
+	0%{}
+	100%{opacity:0.75;left:12%;top:46%}
+}
+@keyframes cloud_move_right_m{
+	0%{}
+	100%{opacity:0.7;right:-5%;top:56%}
+}
+
+@keyframes star{
+	0%{opacity:1}
+	50% {opacity: 0;}
+	100% {opacity:1;;}
+  }
+
+@keyframes wave-one {
+	0% {background-position-x: 0;}	
+	100% {background-position-x: 1000px;}
+}
+@keyframes wave-two {
+	0% {background-position-x: 0;}	
+	100% {background-position-x: -1000px;}
+}
+
+@keyframes scroll {
+	0%{transform: translateY(0);opacity:0;}
+	70%{transform: translateY(8px);opacity:1}
+	100%{transform: translateY(10px);opacity:0;}
+
+}
