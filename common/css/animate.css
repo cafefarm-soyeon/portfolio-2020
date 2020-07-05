@@ -1,4 +1,7 @@
-.visual h2{animation: visual_text 1.5s ease-out 1 }
+.visual h2{opacity:0;animation: visual_text 1.5s ease-out 1 forwards;animation-delay:.5s }
+.stars1{animation:star 2s -1s ease-in-out infinite alternate;}
+.stars2{animation:star 2s ease-in-out infinite alternate;}
+.stars3{animation:star 3s -2s ease-in-out infinite alternate;}
 .visual .baloon{opacity:0}
 .visual .baloon_01 .baloon:nth-of-type(1){animation:baloon_01 .5s ease-in;animation-delay:.4s;}
 .visual .baloon_01 .baloon:nth-of-type(2){animation:baloon_01 .5s ease-in;animation-delay:1.2s}
@@ -18,16 +21,25 @@
 .wave_wrap .wave:nth-of-type(2) {animation: wave_02 9s ease-in-out infinite alternate;z-index:3;}
 .wave_wrap .wave:nth-of-type(3) {animation: wave_03 13s ease-in-out infinite alternate;z-index:2;}
 .wave_wrap .wave:nth-of-type(4) {animation: wave_04 11s ease-in-out infinite alternate;z-index:1;}
-.stars1{animation:star 2s -1s ease-in-out infinite alternate;}
-.stars2{animation:star 2s ease-in-out infinite alternate;}
-.stars3{animation:star 3s -2s ease-in-out infinite alternate;}
+.visual .grass_wrap{opacity:0;animation:grass .7s ease-in forwards;animation-delay:2s}
+
 .visual .arrow{animation:scroll 1.7s infinite ease}
+
+@keyframes visual_text{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@keyframes star{
+	0%{opacity:1}
+	50% {opacity: 0;}
+	100% {opacity:1;;}
+  }
 
 @keyframes baloon_01{
 	0%{opacity:0;transform:scale(0);}
 	100%{opacity:.9;transform:scale(1);}
 }
-
 @keyframes baloon{
 	0%{opacity:1;}
 	100%{opacity:.95;transform:scale(0.95);margin-top:-1.5px;}
@@ -37,12 +49,6 @@
 	.cloud_wrap_02 .cloud_left{animation:cloud_move_left_m 6s ease-in-out infinite alternate;}
 	.cloud_wrap_02 .cloud_right{animation:cloud_move_right_m 6s ease-in-out infinite alternate;}
 }
-
-@keyframes visual_text{
-	0%{opacity:0;}
-	100%{opacity:1;}
-}
-
 @keyframes cloud_wrap{
 	0%{opacity:0;}
 	100%{opacity:1;}
@@ -65,12 +71,6 @@
 	100%{opacity:.3;right:-5%;top:47%}
 }
 
-@keyframes star{
-	0%{opacity:1}
-	50% {opacity: 0;}
-	100% {opacity:1;;}
-  }
-
 @keyframes wave_01 {
 	0% {background-position-x: 0;}	
 	100% {background-position-x: 1000px;}
@@ -88,9 +88,13 @@
 	100% {background-position-x: -1000px;}
 }
 
+@keyframes grass{
+	0%{opacity:0}
+	100%{opacity:1}
+}
+
 @keyframes scroll {
 	0%{transform: translateY(0);opacity:0;}
 	70%{transform: translateY(8px);opacity:1}
 	100%{transform: translateY(10px);opacity:0;}
-
 }
