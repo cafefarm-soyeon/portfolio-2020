@@ -1,4 +1,5 @@
 .visual h2{opacity:0;animation: visual_text 1.5s ease-out 1 forwards;animation-delay:.5s }
+.star{animation:star_move 2s linear infinite alternate;}
 .stars1{animation:star 2s -1s ease-in-out infinite alternate;}
 .stars2{animation:star 2s ease-in-out infinite alternate;}
 .stars3{animation:star 3s -2s ease-in-out infinite alternate;}
@@ -16,12 +17,11 @@
 .visual .cloud_wrap_01{opacity:0;animation:cloud_wrap 1s ease-in; animation-delay:1.8s;}
 .visual .cloud_wrap_02 .cloud_left{opacity:0;animation:cloud_move_left 6s ease-in-out infinite alternate;animation-delay:2.8s; }
 .visual .cloud_wrap_02 .cloud_right{opacity:0;animation:cloud_move_right 6s ease-in-out infinite alternate;animation-delay:2.8s;}
-.star{animation:star_move 2s linear infinite alternate;}
-.wave_wrap .wave:nth-of-type(1) {animation: wave_01 7s ease-in-out infinite alternate;z-index:4;}
-.wave_wrap .wave:nth-of-type(2) {animation: wave_02 9s ease-in-out infinite alternate;z-index:3;}
-.wave_wrap .wave:nth-of-type(3) {animation: wave_03 13s ease-in-out infinite alternate;z-index:2;}
-.wave_wrap .wave:nth-of-type(4) {animation: wave_04 11s ease-in-out infinite alternate;z-index:1;}
-.visual .grass_wrap{opacity:0;animation:grass .7s ease-in forwards;animation-delay:2s}
+.wave_wrap .wave:nth-of-type(1) {animation: wave_01 7s ease-in-out infinite alternate;z-index:4;opacity:0;animation-delay:2s;}
+.wave_wrap .wave:nth-of-type(2) {animation: wave_02 9s ease-in-out infinite alternate;z-index:3;opacity:0;animation-delay:2s;}
+.wave_wrap .wave:nth-of-type(3) {animation: wave_03 13s ease-in-out infinite alternate;z-index:2;opacity:0;animation-delay:2s;}
+.wave_wrap .wave:nth-of-type(4) {animation: wave_04 11s ease-in-out infinite alternate;z-index:1;opacity:0;animation-delay:2s;}
+.visual .grass_wrap{opacity:0;animation:grass .7s ease-in forwards;animation-delay:2.2s}
 .visual .arrow{animation:scroll 1.7s infinite ease}
 
 @keyframes visual_text{
@@ -71,19 +71,19 @@
 }
 
 @keyframes wave_01 {
-	0% {background-position-x: 0;}	
+	0% {background-position-x: 0;opacity:.3;}	
 	100% {background-position-x: 1000px;}
 }
 @keyframes wave_02 {
-	0% {background-position-x: 0;}	
+	0% {background-position-x: 0;opacity:.6;}	
 	100% {background-position-x: -1000px;}
 }
 @keyframes wave_03 {
-	0% {background-position-x: 0;}	
+	0% {background-position-x: 0;opacity:.3;}	
 	100% {background-position-x: -1000px;}
 }
 @keyframes wave_04 {
-	0% {background-position-x: 0;}	
+	0% {background-position-x: 0;opacity:.3;}	
 	100% {background-position-x: -1000px;}
 }
 
