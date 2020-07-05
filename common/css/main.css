@@ -83,16 +83,14 @@ section{width:100%;/*overflow:hidden*/}
 .project .project_wrap>div:after{clear:both;}
 .project .project_wrap>div:hover img{transform:scale(1.08);transition:.7s}
 .project .project_wrap>div>div{padding:10px;}
-.project .project_wrap p{width:100%;height:265px;background:#666;overflow:hidden;position:relative;}
+.project .project_wrap p{width:100%;height:265px;background:#999;overflow:hidden;position:relative;}
 .project .project_wrap span{display:block}
 .project .project_wrap img{width:100%;height:auto;transition:.7s}
 .project .project_wrap a{color:#0099ff}
 .project .project_wrap .stit{font-size:18px;font-weight:bold;padding:5px 0;}
-.project .project_wrap .stxt{line-height:20px}
+.project .project_wrap .stxt{font-size:14px;line-height:20px}
 .project .project_wrap .url{font-size:12px;line-height:22px}
 .project .project_wrap .icon_secret:after{content:'';position: absolute;left: 50%;top:50%;background:url('../img/p_secret.png') 50% 50% no-repeat;width: 80px;height:80px;transform:translate(-50%,-50%)}
-
-
 
 .skills{width:100%;background: url(../img/bg_skill_p.jpg) center center no-repeat fixed;color:#fff;text-align:center;position:relative;}
 .skills .tit{padding:100px 0 10px 0;margin-bottom: 80px;position:relative;font-size:48px}
