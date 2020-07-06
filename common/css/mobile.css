@@ -37,6 +37,25 @@
   
 }
 
+@media all and (max-width:1024px) {
+  .visual{padding-top:80px}
+  .visual h2{width:500px;}
+  .visual .arrow{bottom:7%}
+  .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4) {width:100%;}
+}
+
+@media all and (max-width:900px) {
+  .visual {height: 66vh;}
+  .visual .arrow{bottom:0}
+  .visual .wave_wrap {height: 130px;}
+  .visual .wave_wrap .wave {height: 90px;background-size:800px 65px;}
+  .visual .baloon:nth-of-type(3){left:83%;}
+  .visual .baloon:nth-of-type(4){left:71%;}
+  .visual .baloon:nth-of-type(5){left:65%;}
+  .visual .baloon:nth-of-type(6){left:9%;}
+  .visual .baloon:nth-of-type(7){left:20%;}
+}
+
 /* Mobile ( ~ 767px)*/
 @media all and (max-width:767px) {
   body{font-size:8px}
@@ -44,7 +63,7 @@
   .visual .grass.pc,.visual .grass.mobile {display:none}
   .visual .grass.tablet{display:block}
   .visual .wave_wrap {height: 100px;}
-  .visual .wave_wrap .wave {height: 75px;background-size:700px 50px;}
+  .visual .wave_wrap .wave {height: 65px;background-size:700px 50px;}
   .career .tit{padding:60px 0 20px 0;margin:60px 0 80px 0;font-size:38px}
   .career .tit:after{width:115px;}
   .career .career_common{padding:0 10px 50px 100px;}
@@ -57,25 +76,6 @@
   .skills .skills_wrap>ul>li>ul>li:before {top: -30px;left: 25%;transform: scale(0.8);}
   .skills .skills_wrap>ul>li>ul>li {padding: 40px 20px 55px;min-width: 100px;}
   .skills .skills_wrap .tit {font-size: 28px;padding: 0 0 40px 0;}
-}
-
-@media all and (max-width:1024px) {
-  .visual{padding-top:80px}
-  .visual h2{width:500px;}
-  .visual .arrow{bottom:7%}
-  .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4) {width:100%;}
-}
-
-@media all and (max-width:900px) {
-  .visual {height: 66vh;}
-  .visual .arrow{bottom:0}
-  .visual .wave_wrap {height: 130px;}
-  .visual .wave_wrap .wave {height: 95px;background-size:800px 65px;}
-  .visual .baloon:nth-of-type(3){left:83%;}
-  .visual .baloon:nth-of-type(4){left:71%;}
-  .visual .baloon:nth-of-type(5){left:65%;}
-  .visual .baloon:nth-of-type(6){left:9%;}
-  .visual .baloon:nth-of-type(7){left:20%;}
 }
 
 @media all and (max-width:700px) {
