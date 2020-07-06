@@ -10,9 +10,8 @@
 
         if(height > 500){
             $('.arrow').hide();
-        }else{
-            $('.arrow').show();
         }
+        
         }); 
 
 }());
