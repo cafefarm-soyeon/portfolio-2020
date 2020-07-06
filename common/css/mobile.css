@@ -20,7 +20,7 @@
 @media all and (min-width:1025px) and (max-width:1280px){
   .visual {height: 71vh;}
   .visual .wave_wrap {height: 160px;}
-  .visual .wave_wrap .wave {height: 135px;background-size:950px 85px;}
+  .visual .wave_wrap .wave {height: 125px;background-size:950px 85px;}
   .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4) {width: 40%;}
 }
 
@@ -28,7 +28,7 @@
 @media all and (min-width:768px) and (max-width:1024px) {
   .visual {height: 71vh;}
   .visual .wave_wrap {height: 150px;}
-  .visual .wave_wrap .wave {height: 125px;background-size:900px 70px;}
+  .visual .wave_wrap .wave {height: 105px;background-size:900px 70px;}
   .career .career_common{padding: 0 0 80px 200px;}
   .career .career_common:before {left: 109px;}
   .career .career_common:after {left: 104.5px;}
@@ -70,7 +70,7 @@
   .visual {height: 66vh;}
   .visual .arrow{bottom:0}
   .visual .wave_wrap {height: 130px;}
-  .visual .wave_wrap .wave {height: 105px;background-size:800px 65px;}
+  .visual .wave_wrap .wave {height: 95px;background-size:800px 65px;}
   .visual .baloon:nth-of-type(3){left:83%;}
   .visual .baloon:nth-of-type(4){left:71%;}
   .visual .baloon:nth-of-type(5){left:65%;}
@@ -108,6 +108,7 @@
 
 @media all and (max-width:420px) {
   .skills .skills_wrap{padding-bottom:0}
+  .project .project_wrap p{height:240px;}
 }
 
 @media all and (max-width:400px) {
@@ -115,6 +116,11 @@
   .visual .grass.pc,.visual .grass.tablet {display:none}
   .visual .grass.mobile{display:block}
   footer{font-size:14px}
+}
+
+@media all and (max-width:380px) {
+  .project .project_wrap p{height:200px;}
+  .project .project_wrap .url{letter-spacing:-.5px;}
 }
 
 @media all and (max-width:350px) {
