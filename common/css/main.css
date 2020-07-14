@@ -64,8 +64,8 @@ section{width:100%;/*overflow:hidden*/}
 .career .career_common:before{content:'';width:1px;height:890px;background:#fff;position:absolute;top: -25px;left: 229px;}
 .career .career_common:after{content:'';width: 10px;height: 10px;background: #fff;border-radius: 5px;position: absolute;left: 224.5px;top: 26px;}
 .career .career_wrap span{display:block}
-.career .career_wrap .stit{font-size:24px;padding:20px 0;max-width:500px;}
-.career .career_wrap .date{font-size:24px;padding:0 0 10px 0;padding-left:15px;opacity:0.85;}
+.career .career_wrap .stit{font-size:23px;padding:20px 0;max-width:500px;}
+.career .career_wrap .date{font-size:23px;padding:0 0 10px 0;padding-left:15px;opacity:0.85;}
 .career .career_wrap ul li{margin-left:30px;color:#ede1ff;list-style-type: disc;}
 .career .career_wrap .career01{padding-bottom:120px}
 .career .career_wrap .stit:after{content: "";width:278px;height:181px;position:absolute;top:22px;right:-60%;opacity:0.5;z-index:-1;}

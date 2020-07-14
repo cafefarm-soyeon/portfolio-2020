@@ -17,11 +17,12 @@
 .visual .cloud_wrap_01{opacity:0;animation:cloud_wrap .7s ease-in; animation-delay:2s;}
 .visual .cloud_wrap_02 .cloud_left{opacity:0;animation:cloud_move_left 6s ease-in-out infinite alternate;animation-delay:2.7s; }
 .visual .cloud_wrap_02 .cloud_right{opacity:0;animation:cloud_move_right 6s ease-in-out infinite alternate;animation-delay:2.7s;}
-.wave_wrap .wave:nth-of-type(1) {animation: wave_01 7s ease-in-out infinite alternate;z-index:4;opacity:0;animation-delay:2.9s;}
-.wave_wrap .wave:nth-of-type(2) {animation: wave_02 11s ease-in-out infinite alternate;z-index:3;opacity:0;animation-delay:2.9s;}
-.wave_wrap .wave:nth-of-type(3) {animation: wave_03 5s ease-in-out infinite alternate;z-index:2;opacity:0;animation-delay:2.9s;}
-.wave_wrap .wave:nth-of-type(4) {animation: wave_04 6s ease-in-out infinite alternate;z-index:1;opacity:0;animation-delay:2.9s;}
-.visual .grass_wrap{opacity:0;animation:grass .5s ease-in forwards;animation-delay:3s}
+.visual .wave_wrap{opacity:0;animation:grass .7s forwards;animation-delay:2.9s}
+.visual .wave_wrap .wave:nth-of-type(1) {animation: wave_01 7s ease-in-out infinite alternate;z-index:4;opacity:0;animation-delay:3.1s;}
+.visual .wave_wrap .wave:nth-of-type(2) {animation: wave_02 11s ease-in-out infinite alternate;z-index:3;opacity:0;animation-delay:3.1s;}
+.visual .wave_wrap .wave:nth-of-type(3) {animation: wave_03 5s ease-in-out infinite alternate;z-index:2;opacity:0;animation-delay:3.1s;}
+.visual .wave_wrap .wave:nth-of-type(4) {animation: wave_04 6s ease-in-out infinite alternate;z-index:1;opacity:0;animation-delay:3.1s;}
+.visual .grass_wrap{opacity:0;animation:grass .5s ease-in forwards;animation-delay:3.3s}
 .visual .arrow{opacity:0;animation:scroll 1.7s infinite ease;animation-delay:6s}
 
 @keyframes visual_text{
