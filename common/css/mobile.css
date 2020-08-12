@@ -104,6 +104,7 @@
   header nav span a{font-size:20px}
   header {height: 100px;line-height: 100px;}
   .visual h2{font-size:42px;line-height:50px}
+  .skills{background: #2b1263;}
 }
 
 @media all and (max-width:420px) {
