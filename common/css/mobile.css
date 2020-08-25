@@ -7,14 +7,10 @@
 }
 @media all and (max-width:1185px){
   .project .project_wrap>div{width:48%}
-  .project .project_wrap .stxt{letter-spacing:0;font-size:14px;}
+
 }
-@media all and (max-width:1000px){
-  .project .project_wrap .stxt{font-size:14px;}
-}
-@media all and (max-width:810px){
-  .project .project_wrap>div {width: 95%;margin: 0 2.5% 5%;}
-}
+
+
 
 /* PC (1025px~1280px) */
 @media all and (min-width:1025px) and (max-width:1280px){
@@ -34,7 +30,6 @@
   .career .career_common:after {left: 104.5px;}
   .career .career_wrap:after {left: 103.4px;}
   .skills .skills_wrap>ul>li>ul>li {min-width: 70px;}
-  
 }
 
 @media all and (max-width:1024px) {
@@ -42,6 +37,10 @@
   .visual h2{width:500px;}
   .visual .arrow{bottom:7%}
   .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4) {width:100%;}
+}
+
+@media all and (max-width:1000px){
+  .project .project_wrap .stxt{font-size:14px;}
 }
 
 @media all and (max-width:900px) {
@@ -54,6 +53,15 @@
   .visual .baloon:nth-of-type(5){left:65%;}
   .visual .baloon:nth-of-type(6){left:9%;}
   .visual .baloon:nth-of-type(7){left:20%;}
+}
+
+@media all and (max-width:775px){
+  .project .project_wrap .url .samsung_desc{display:none}
+}
+  @media all and (max-width:768px){
+  .project .project_wrap{padding:0}
+  .project .project_wrap>div {width: 45%;margin: 0 0 2% 3.5%}
+  .project .project_wrap .stxt{letter-spacing:-1px}
 }
 
 /* Mobile ( ~ 767px)*/
@@ -76,6 +84,7 @@
   .skills .skills_wrap>ul>li>ul>li:before {top: -30px;left: 25%;transform: scale(0.8);}
   .skills .skills_wrap>ul>li>ul>li {padding: 40px 20px 55px;min-width: 100px;}
   .skills .skills_wrap .tit {font-size: 28px;padding: 0 0 40px 0;}
+  .project .project_wrap p{height:180px;transition:.7s}
 }
 
 @media all and (max-width:700px) {
@@ -85,6 +94,23 @@
   .visual h2{max-width: 400px;font-size:64px}
   .visual .cloud_left{transform:scale(0.5);}
   .visual .cloud_right{transform:scale(0.7);}
+  .project .project_wrap .url{letter-spacing:-0.5px;}
+  .project .project_wrap .stit .think_gs{display:none}
+  .project .project_wrap .stxt .jwu_desc{display:none}
+}
+
+@media all and (max-width:665px){
+  .project .project_wrap .stit{font-size:15px;padding:0}
+  .project .project_wrap .stxt{letter-spacing:0;font-size:12px;}
+  .project .project_wrap .url{font-size:11px}
+
+}
+
+@media all and (max-width:635px) {
+  .project .project_wrap .stit{font-size:15px;letter-spacing:-0.5px;padding:0}
+  .project .project_wrap .stxt{font-size:13px;letter-spacing:-1px;}
+  .project .project_wrap .url{letter-spacing:0;}
+ 
 }
 
 @media all and (max-width:600px) {
@@ -98,6 +124,11 @@
   .career .career_wrap ul li{line-height: 26px;}
   .visual .cloud_right{right:0%;top:53%}
   .visual .cloud_left{left:-5%;top:44%}
+  .project .project_wrap>div{width:93%}
+  .project .project_wrap p{height:300px}
+  .project .project_wrap .stit .think_gs{display:inline}
+  .project .project_wrap .stxt .jwu_desc{display:inline}
+  .project .project_wrap .url .samsung_desc{display:inline}
 }
 
 @media all and (max-width:500px) {
